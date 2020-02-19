@@ -43,7 +43,6 @@ jobs:
       - run:
           name: Snyk test
           command: |
-            ls -la
             ./snyk test
 
 workflows:
