@@ -43,7 +43,7 @@ jobs:
       - run:
           name: Snyk test
           command: |
-            ./snyk test
+            ./snyk help
 
 workflows:
   maven_test:
